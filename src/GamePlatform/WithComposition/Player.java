@@ -5,6 +5,7 @@ public class Player implements IsUser {
 
     @Override
     public void userMethod() {
+
         parent.userMethod();        // Delegation
     }
 
